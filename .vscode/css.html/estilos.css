@@ -1,0 +1,75 @@
+body
+¨{
+    background-color: hotpink;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+section {
+    height: 100vh;
+}
+section#hero{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+section#hero h1 {font-size: 3rem;
+
+}
+section#hero h2{
+    font-size: 2rem;
+} 
+
+.listas-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.detalles-proyecto { 
+    border: 5px solid dimgray ;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+
+.detalles-proyecto img {
+    width: 100%;
+
+} 
+header {
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: palevioletred;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: lightpink;
+}
